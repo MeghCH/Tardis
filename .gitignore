@@ -15,3 +15,7 @@ data/raw/
 
 *.swp
 *.swo
+
+project_dataset.csv
+
+
