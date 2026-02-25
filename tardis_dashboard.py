@@ -48,7 +48,7 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("cleaned_dataset.csv", sep=";")
+    df = pd.read_csv("cleaned_dataset.csv", sep=",")
     return df
 
 # Composants
