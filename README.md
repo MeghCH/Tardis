@@ -1,4 +1,6 @@
-# TARDIS - Train Delay Prediction System
+![Cover](assets/cover.png)
+
+# 🚂 TARDIS - Train Delay Prediction System
 
 ## Description
 TARDIS is a data analysis project to predict train delays. This project includes data cleaning, data exploration, building a prediction model, and developing an interactive dashboard to visualize the results.
