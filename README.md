@@ -3,7 +3,8 @@
 # 🚂 TARDIS - Train Delay Prediction System
 
 ## Description
-TARDIS is a data analysis project to predict train delays. This project includes data cleaning, data exploration, building a prediction model, and developing an interactive dashboard to visualize the results.
+The **"Tardis"** is an Epitech Bachelor Machine Learning Project. The goal : Predic the SNCF Trains delay by using a provided dataset and a custom prediction model. This project includes the need of : Data Exploration, a Data Cleaning Script, an intuitive Dashboard to visualize the data, and the Prediction Model. 
+This project follows on from the data and AI bootcamp of the bachelor's program.
 
 ## Installation
 
@@ -47,4 +48,23 @@ streamlit run tardis_dashboard.py
 ### Launching the Model
 ```bash
 # Here is the Machine learning Model launching command
+```
+
+### Folder Architecure
+The project is made of multiples files and folders.
+```
+TARDIS/
+├── .venv/                       # The virtual environnement
+├── assets/                     
+│   └── cover.png                
+├── notebooks/                   
+│   ├── tardis_eda.ipynb        # The CSV Cleaner Script
+│   └── tardis_model.ipynb       
+├── .gitignore
+├── README.md                   
+├── requirements.txt            # The python packages list
+├── cleaned_dataset.csv         # The Cleaned CSV
+├── project_dataset.csv         # The Raw CSV
+├── tardis_dashboard.py         # The Streamlit (Python) Dashboard
+└── model.joblib                
 ```
