@@ -17,5 +17,6 @@ data/raw/
 *.swo
 
 project_dataset.csv
+tardis_model.ipynb
 
 
