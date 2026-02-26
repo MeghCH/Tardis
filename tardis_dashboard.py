@@ -132,23 +132,23 @@ with tab3:
 
 with tab4:
     st.subheader("Analyse comparative : Train en retard par type de service")
-    st.image("assets/train_natio_internatio.png", width=500)
+    st.image("assets/train_natio_internatio.png", width=800)
 
 with tab5:
     st.subheader("Analyse comparative : Top 10 des gares avec le plus de retard au depart")
-    st.image("assets/top_gare_retard_depart.png", width=500)
+    st.image("assets/top_gare_retard_depart.png", width=800)
 
 with tab6:
     st.subheader("Analyse comparative : Top 10 des gares avec le plus de retard à l'arrivée")
-    st.image("assets/top_gare_retard_arrivee.png", width=500)
+    st.image("assets/top_gare_retard_arrivee.png", width=800)
 
 with tab7:
     st.subheader("Analyse comparative : Distribution des retards au depart")
-    st.image("assets/retard_au_depart.png", width=500)
+    st.image("assets/retard_au_depart.png", width=900)
 
 with tab8:
     st.subheader("Analyse comparative : Distribution des retards à l'arrivée")
-    st.image("assets/retard_arrivee.png", width=500)
+    st.image("assets/retard_arrivee.png", width=900)
 
 #PREDICTIONS
 # st.divider()
