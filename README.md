@@ -18,6 +18,7 @@ This project follows on from the data and AI bootcamp of the bachelor's program.
 ### Cloning the Repository
 ```bash
 git clone https://github.com/EpitechBachelorPromo2028-B-DAT-200-STG-2-1-tardis-1.git
+source .venv/bin/activate
 cd B-DAT-200-STG-2-1-tardis-1/
 ```
 
