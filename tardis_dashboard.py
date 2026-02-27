@@ -53,8 +53,8 @@ def load_data():
     return df
 
 # Composants
-st.title("TARDIS: Système d'Analyse des Trains et d'Inspection des Retards")
-st.markdown("<span style='color:#9d9e9f'>Analyses automatisées pour le Service d'Étude des Données de la SNCF.</span>", unsafe_allow_html=True)
+st.title("TARDIS: S.A.T.I.R")
+st.markdown("<span style='color:#9d9e9f'>Système d'Analyse des Trains et d'Inspection des Retards</span>", unsafe_allow_html=True)
 
 try:
     df = load_data()
