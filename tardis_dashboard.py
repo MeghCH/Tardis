@@ -157,34 +157,5 @@ with tab8:
 
 # p_col1, p_col2, p_col3 = st.columns(3)
 
-# with p_col1:
-#     depart_st = st.selectbox("Gare de départ", options=df["Gare de départ"].unique())
-#     arrivee_st = st.selectbox("Gare d'arrivée", options=df["Gare d'arrivée"].unique())
-
-# with p_col2:
-#     train_t = st.selectbox("Type de train", options=df["Service"].unique())
-#     mois_sel = st.slider("Mois", min_value=1, max_value=12, value=1)
-
-# if st.button("Lancer l'estimation", type="primary"):
-#     try:
-#         artifacts = load_model()
-#         model = artifacts["model"]
-#         le_depart = artifacts["le_depart"]
-#         le_arrivee = artifacts["le_arrivee"]
-#         le_service = artifacts["le_service"]
-
-#         input_data = pd.DataFrame([{
-#             "depart_encode": le_depart.transform([depart_st])[0],
-#             "arrivee_encode": le_arrivee.transform([arrivee_st])[0],
-#             "service_encode": le_service.transform([train_t])[0],
-#             "Mois": mois_sel
-#         }])
-
-#         prediction = model.predict(input_data)[0]
-#         st.success(f"Retard estimé : **{prediction:.1f} minutes**")
-
-#     except Exception as e:
-#         st.error(f"Impossible de prédire pour ce trajet : {e}")
-
 st.sidebar.markdown("---")
 st.sidebar.caption("SNCF TARDIS Project")
